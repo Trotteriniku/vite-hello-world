@@ -1,6 +1,9 @@
 <template >
-  <AppTitle />
-  <AppHero />
+  <div class="appContainer">
+    <AppTitle />
+    <AppHero />
+  </div>
+  
 </template>
 
 <script >
@@ -15,5 +18,8 @@ import AppHero  from './components/AppHero.vue';
 </script>
 
 <style lang="css" scoped>
-  
+  .appContainer{
+    width: 100vw;
+    height: 100vh;
+  }
 </style>

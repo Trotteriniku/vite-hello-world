@@ -15,10 +15,11 @@
 
 <style lang="css" scoped>
     .containerHero{
-        margin: 100px auto;
+        margin: 50px auto;
         display: flex;
         flex-wrap: wrap;
-        width: 600px;
+        width: 60%;
+        height: 80%;
         border: 1px solid black;
         padding: 10px;
         background-color:#53b1b1;
@@ -34,6 +35,7 @@
 
     img{
         width: 100%;
+        height: 100%;
         display: block;
 
     }
